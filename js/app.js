@@ -21,7 +21,7 @@ $(document).ready(function() {
         if (target === "C") {
             $(calScreen).text("");
         } else if (target === "=") {
-            $(calScreen).text(eval(oldScreen));
+           $(calScreen).text(eval(oldScreen));
         } else if (target === "x") {
             $(calScreen).text(oldScreen + "*");
         } else if (target === "÷") {
